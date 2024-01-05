@@ -1,0 +1,50 @@
+header{
+    background-color: beige;
+    /* height: 40px; */
+    /* padding: 6px; */
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+header nav ul li{
+    margin-right: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+header nav ul li:hover{
+    background-color: rgb(186, 210, 183);
+}
+header nav li a{
+    text-decoration: none;
+
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    background-color: beige;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+fieldset{
+    margin: 15px 0px;
+}
+table{
+    border-collapse: collapse;
+}
+table caption{
+    padding: 10px;
+    font-size: larger;
+}
+td, th{
+    border: 1px dotted;
+    padding: 5px 10px;
+}
+tfoot{
+    text-align: center;
+}

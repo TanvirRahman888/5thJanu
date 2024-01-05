@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-3 HTML Form Label Fieldset Legend Radio Checkbox Textarea Reset Submit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">4-1 HTML5 vs HTM</a> </li>
+                <li><a href="Blog.html">Blog</a> </li>
+                <li><a href="table.html">Table</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="Name">Name :
+                <input type="text" placeholder="Full Name" required>
+            </label>
+            <label for="Email">Email :
+                <input type="email" name="" id="" placeholder="Email Address" required>
+            </label>
+            <label for="Mobile Number">Mobile :
+                <input type="text" name="Mobile Number" id="" placeholder="Mobile Number" required>
+            </label>
+            <label for="Gender">Gender :
+                <select name="" id="" required>
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Child">Child</option>
+                </select>
+            </label>
+            <!-- <label for="source">Get info from
+                <input type="radio" name="source" id="">Social Media
+                <input type="radio" name="source" id="">Googel Map
+                <input type="radio" name="source" id="">Other
+            </label> -->
+            <fieldset>
+                <legend>Get info from</legend>
+                <label for="Social_Media"><input type="radio" name="source" id="Social_Media" required>Social Media</label>
+                <label for="Googel_Map"><input type="radio" name="source" id="Googel_Map" required>Googel Map</label>
+                <label for="Other"><input type="radio" name="source" id="Other" required>Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact for: </legend>
+                <textarea name="" id="" cols="80" rows="10" required></textarea>
+
+            </fieldset>
+            <label for="Service">
+                <input type="checkbox" name="" id=""> Contact for service.
+            </label>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            <br><br>
+
+
+
+        </form>
+
+    </main>
+    <footer>
+        &copy; Md Tanvir Rahman
+    </footer>
+
+</body>
+
+</html>
